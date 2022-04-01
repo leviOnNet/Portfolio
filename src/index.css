@@ -1,0 +1,47 @@
+
+
+body {
+  margin: 0;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.Mainpage{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Cards {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  margin-left: 25%;
+}
+
+.pCards{
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+  justify-content: center;
+}
+.Caro{
+  max-height: 50px;
+}
+
+.Msg{
+  width: 60%;
+  float: right;
+}
+.Contact{
+  display: flex;
+  flex-direction: row;
+  margin-right: 10%;
+}

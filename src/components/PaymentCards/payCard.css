@@ -1,0 +1,16 @@
+.pCards{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5px;
+    justify-content: center;
+    -ms-flex-align: stretch;
+    overflow-x: auto;
+    height: auto;
+  }
+  .pCards::-webkit-scrollbar { display: none;}
+  .pCards::-webkit-scrollbar-thumb {display: table-row;}
+
+  .pCards img{
+    margin-right: 15px;
+
+  }
